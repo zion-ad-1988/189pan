@@ -77,8 +77,8 @@ jobs:
             echo "success=false" >> $GITHUB_OUTPUT
           fi
         env:
-          TYYP_USERNAME: ${{ secrets.TYYP_USERNAME }}
-          TYYP_PSW: ${{ secrets.TYYP_PSW }}
+          TYYP_USERNAME: 15374690049
+          TYYP_PSW: Wchy8851502.
 
       - name: Set commit message
         id: commit_msg
